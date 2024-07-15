@@ -2,27 +2,27 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <!-- Páginas HTML -->
     <url>
-        <loc>https://premoldeadospintos.000webhostapp.com/</loc>
+        <loc>https://premoldeadopinto.github.io/</loc>
         <lastmod>2024-05-01</lastmod>
 
     </url>
     <!-- Imágenes -->
     <url>
-        <loc>https://premoldeadospintos.000webhostapp.com/imagenes/IMG_20180517_093041974_HDR.webp</loc>
+        <loc>https://premoldeadopinto.github.io/imagenes/IMG_20180517_093041974_HDR.webp</loc>
         <image:image>
-            <image:loc>https://premoldeadospintos.000webhostapp.com/imagenes/IMG_20180517_093041974_HDR.webp</image:loc>
+            <image:loc>https://premoldeadopinto.github.io/imagenes/IMG_20180517_093041974_HDR.webp</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://premoldeadospintos.000webhostapp.com/imagenes/Macetavol.webp</loc>
+        <loc>https://premoldeadopinto.github.io/imagenes/Macetavol.webp</loc>
         <image:image>
-            <image:loc>https://premoldeadospintos.000webhostapp.com/imagenes/Macetavol.webp</image:loc>
+            <image:loc>https://premoldeadopinto.github.io/imagenes/Macetavol.webp</image:loc>
         </image:image>
     </url>
      <url>
-        <loc>https://premoldeadospintos.000webhostapp.com/imagenes/bebederos.webp</loc>
+        <loc>https://premoldeadopinto.github.io/imagenes/bebederos.webp</loc>
         <image:image>
-            <image:loc>https://premoldeadospintos.000webhostapp.com/imagenes/bebederos.webp</image:loc>
+            <image:loc>https://premoldeadopinto.github.io/imagenes/bebederos.webp</image:loc>
         </image:image>
     </url>
     <!-- Otras imágenes pueden ir aquí -->
