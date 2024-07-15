@@ -1,0 +1,60 @@
+.containerimage {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.image-containerimage {
+    position: relative;
+    width: 30%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se extienda más allá del contenedor */
+}
+
+
+
+.image-containerimage:hover {
+    transform: scale(1.1);
+}
+
+.image-containerimage img {
+    width: auto; /* Ajusta automáticamente el ancho de la imagen al contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    max-width: 100%; /* Limita el ancho máximo para que la imagen no se extienda más allá del contenedor */
+    max-height: 100%; /* Limita la altura máxima */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.image-title {
+    text-align: center; /* Centra el título */
+    margin-top: 10px; /* Espacio entre la imagen y el título */
+    font-weight: bold;
+}
+
+/* Media query para pantallas de escritorio */
+@media screen and (max-width: 800px) {
+    .containerimage {
+        flex-wrap: wrap;
+    }
+    .image-containerimage {
+        width: 48%; /* Cambiado para que haya dos imágenes por fila */
+        margin-bottom: 20px; /* Espacio entre imágenes */
+    }
+}
+
+/* Media query para pantallas de celular */
+@media screen and (max-width: 800px) {
+    .containerimage {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-containerimage {
+        width: 50%; /* se modifica el tamaño de las imagenes para celular Ocupar todo el ancho */
+    }
+}
+
+
+
