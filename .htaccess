@@ -1,14 +1,14 @@
 # HTID:23233149: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
-php_value display_errors 1
+#php_value display_errors 1
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:23233149:
 
 # Configuración de caché para archivos HTML
-<IfModule mod_headers.c>
-    Header set Cache-Control "max-age=86400, public"
-</IfModule>
+#<IfModule mod_headers.c>
+ #   Header set Cache-Control "max-age=86400, public"
+#</IfModule>
 
 
 # Configuración de caché para imágenes
-<IfModule mod_headers.c>
-    Header set Cache-Control "max-age=2592000, public" "expr=%{REQUEST_FILENAME} =~ /\.(jpg|jpeg|png|gif|webp)$/"
-</IfModule>
+#<IfModule mod_headers.c>
+ #   Header set Cache-Control "max-age=2592000, public" "expr=%{REQUEST_FILENAME} =~ /\.(jpg|jpeg|png|gif|webp)$/"
+#</IfModule>
