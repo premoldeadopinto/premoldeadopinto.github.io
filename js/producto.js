@@ -143,7 +143,7 @@ const productos = {
     producto29: {
         nombre: "Soporte Para Celular",
         descripcion: "¡Mantén tu dispositivo seguro y siempre a la vista! Este soporte fijo para celular ofrece una base estable y diseño compacto, perfecto para ver videos, realizar videollamadas o simplemente mantener tu escritorio organizado.",
-        imagenes: ["image/469817814_1109157817073535_80018.webp", "image/472667301_598289746257746_513625.webp", "image/472806684_9089721187751157_59662.webp"]
+        imagenes: ["image/WhatsApp Image 2025-09-24 at 15.44.08(3).webp", "image/WhatsApp Image 2025-09-24 at 15.44.08.webp", "image/WhatsApp Image 2025-09-24 at 15.44.07.webp"]
     }
     ,
     producto30: {
@@ -209,7 +209,7 @@ const productos = {
     producto41: {
         nombre: "Porta llaves",
         descripcion: "Porta llaves de plástico con forma de gatitos y perro.",
-        imagenes: ["image/D_NQ_NP_2X_923362-MLA85082918641.webp","image/502742995_1029082816023976_86749.webp"]
+        imagenes: ["image/D_NQ_NP_2X_923362-MLA85082918641.webp","image/WhatsApp Image 2025-09-06 at 14.04.55.webp","image/502742995_1029082816023976_86749.webp"]
     }
     ,
     producto42: {
@@ -258,6 +258,18 @@ const productos = {
     producto52: {
         nombre: "Virgen maria",
         imagenes: ["image/WhatsApp-Image-2025-09-15-at-15.20.20_1_.webp","image/WhatsApp Image 2025-09-15 at 15.20.20.webp"]
+    },
+    producto53: {
+        nombre: "Afrodita diosa griega",
+        imagenes: ["image/WhatsApp Image 2025-09-24 at 18.12.19.webp","image/WhatsApp Image 2025-09-24 at 18.12.37.webp"]
+    },
+    producto54: {
+        nombre: "Buda",
+        imagenes: ["image/WhatsApp Image 2025-09-21 at 10.34.10.webp","image/WhatsApp Image 2025-09-21 at 10.34.10(1).webp"]
+    },
+    producto55: {
+        nombre: "Poseidón dios griego",
+        imagenes: ["image/WhatsApp Image 2025-09-22 at 13.42.41.webp","image/WhatsApp Image 2025-09-22 at 13.42.41(1).webp"]
     }
     // Más productos
 };

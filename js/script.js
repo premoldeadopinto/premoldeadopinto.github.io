@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
             if (categoria === "todos") {
                 return true;
             }
-            return producto.getAttribute("data-categoria") === categoria;
+            // Permitir varias categorías separadas por espacio
+            const categorias = producto.getAttribute("data-categoria").split(" ");
+            return categorias.includes(categoria);
         });
         
         totalPaginas = Math.ceil(productosFiltrados.length / productosPorPagina);
