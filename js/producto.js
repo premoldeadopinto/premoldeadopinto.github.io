@@ -223,7 +223,7 @@ const productos = {
     },
     producto44: {
         nombre: "Macetas Jardineras",
-        imagenes: ["image/IMG_20171016_162301984.jpg","image/macetasrecta.webp"]
+        imagenes: ["image/IMG_20171016_162301984.webp","image/macetasrecta.webp"]
     },
     producto45: {
         nombre: "Enano de Hormigón",
