@@ -56,8 +56,8 @@ const productos = {
         imagenes: ["image/marcoMostrar.webp","image/IMG_20171111_130654854_HDR.webp","image/IMG_20171111_130833478.webp"]
     }, 
     producto12: {
-        nombre: "Mesas y Bancos",
-        imagenes: ["image/mesa (9).webp"]
+        nombre: "Fuentes",
+        imagenes: ["image/fuente2.webp","Image/fuente3.webp","image/fuente.webp"]
     }, 
     producto13: {
         nombre: "Pato",
