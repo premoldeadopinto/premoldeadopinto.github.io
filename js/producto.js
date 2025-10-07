@@ -57,7 +57,7 @@ const productos = {
     }, 
     producto12: {
         nombre: "Fuentes",
-        imagenes: ["image/fuente2.webp","Image/fuente3.webp","image/fuente.webp"]
+        imagenes: ["image/fuente2.webp","Image/fuente4.webp","image/fuente.webp"]
     }, 
     producto13: {
         nombre: "Pato",
