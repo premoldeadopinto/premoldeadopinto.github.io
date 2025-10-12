@@ -253,7 +253,7 @@ const productos = {
     },
     producto51: {
         nombre: "Porta incienso",
-        imagenes: ["image/WhatsApp-Image-2025-10-01-at-12.19.04.webp","image/WhatsApp-Image-2025-09-07-at-13.51.11.webp","image/WhatsApp-Image-2025-09-07-at-13.51.11_1_.webp"]
+        imagenes: ["image/WhatsApp-Image-2025-10-01-at-12.19.04.webp","image/WhatsApp-Image-2025-10-11-at-08.16.11_1_-1.webp","image/WhatsApp-Image-2025-10-11-at-08.16.12.webp"]
     },
     producto52: {
         nombre: "Virgen maria",
