@@ -182,9 +182,8 @@ const productos = {
         imagenes: ["image/muestra.webp", "image/muestra3.webp", "image/470472730_1119989306249937_12997.webp"]
     },
     producto36: {
-        nombre: "Organizador De Cable para Celular",
-        descripcion: "¡Mantén tus cables ordenados y libres de enredos! Este organizador de cable para celular es la solución perfecta para evitar el caos de cables.",
-        imagenes: ["image/WhatsApp Image 2025-02-12 at 14.38.15(1)-Photoroom.webp"]
+        nombre: "Sirenita",
+        imagenes: ["image/sirena2.webp","image/sirena.webp","image/sirena3.webp"]
     },
     producto37: {
         nombre: "Jarron",
