@@ -84,6 +84,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
     mostrarPagina(paginaActual);
 
+    // --- FILTRO DE BÚSQUEDA DE PRODUCTOS POR h3 ---
+    const inputBusqueda = document.getElementById('busqueda-producto');
+    if (inputBusqueda) {
+        inputBusqueda.addEventListener('input', function(e) {
+            const texto = e.target.value.trim().toLowerCase();
+            if (texto === '') {
+                // Mostrar todos filtrados por categoría
+                filtrarProductos(categoriaActual);
+                return;
+            }
+            // Filtrar por texto en el h3 (título del producto)
+            productosFiltrados = Array.from(productos).filter(producto => {
+                const titulo = producto.querySelector('h3');
+                if (!titulo) return false;
+                return titulo.textContent.toLowerCase().includes(texto);
+            });
+            totalPaginas = Math.ceil(productosFiltrados.length / productosPorPagina);
+            mostrarPagina(1);
+        });
+    }
+    // --- FIN FILTRO ---
     // Aquí puedes inicializar otras cosas si es necesario
 });
 

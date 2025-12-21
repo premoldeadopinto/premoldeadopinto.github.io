@@ -144,6 +144,60 @@ h2::after {
     }
 }
 
+.busqueda-producto-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+    margin-left: 0;
+    gap: 12px;
+}
+
+#busqueda-producto {
+    padding: 10px 20px;
+    width: 320px;
+    border-radius: 20px;
+    border: 2px solid #007bff;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.icono-lupa-busqueda {
+    color: #bfc5cb;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+}
+#busqueda-producto:focus {
+    border-color: #0056b3;
+    background: #f4faff;
+}
+
+.icono-lupa {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b5bfcf;
+    font-size: 20px;
+    pointer-events: none;
+    transition: color 0.3s;
+    background: transparent;
+    padding: 0 1px;
+}
+.busqueda-producto-container:focus-within .icono-lupa {
+    color: #007bff;
+    background: transparent;
+}
+
+#busqueda-producto:focus {
+    border-color: #0056b3;
+    background: #f4faff;
+}
+
 /* Estilos para categorías de productos */
 .categorias-productos {
     display: flex;
