@@ -270,6 +270,16 @@ const productos = {
         nombre: "Poseidón dios griego",
         imagenes: ["image/WhatsApp Image 2025-09-22 at 13.42.41.webp","image/WhatsApp Image 2025-09-22 at 13.42.41(1).webp"]
     }
+    ,
+    producto56: {
+        nombre: "Virgen de Guadalupe",
+        imagenes: ["image/virgen de guadalupe.webp"]
+    }
+    ,
+    producto57: {
+        nombre: "Gruta",
+        imagenes: ["image/gruta.webp"]
+    }
     // Más productos
 };
 
