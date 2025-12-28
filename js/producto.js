@@ -280,6 +280,11 @@ const productos = {
         nombre: "Gruta",
         imagenes: ["image/gruta.webp"]
     }
+    ,
+    producto58: {
+        nombre: "Bacha",
+        imagenes: ["image/lav1.webp","image/lav2.webp","image/lav3.webp"]
+    }
     // Más productos
 };
 
