@@ -267,8 +267,8 @@ const productos = {
         imagenes: ["image/WhatsApp Image 2025-09-21 at 10.34.10.webp","image/WhatsApp Image 2025-09-21 at 10.34.10(1).webp"]
     },
     producto55: {
-        nombre: "Poseidón dios griego",
-        imagenes: ["image/WhatsApp Image 2025-09-22 at 13.42.41.webp","image/WhatsApp Image 2025-09-22 at 13.42.41(1).webp"]
+        nombre: "Soporte de bolígrafos",
+        imagenes: ["image/c985cf4fc32a8f7e.webp","image/bd0569f6f1a758f5.webp","image/soporte.webp"]
     }
     ,
     producto56: {
