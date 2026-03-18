@@ -285,6 +285,11 @@ const productos = {
         nombre: "Bacha",
         imagenes: ["image/lav1.webp","image/lav2.webp","image/lav3.webp"]
     }
+    ,
+    producto59: {
+        nombre: "Comedero de animales",
+        imagenes: ["image/comedero ani.webp","image/coemderoani.webp"]
+    }
     // Más productos
 };
 
