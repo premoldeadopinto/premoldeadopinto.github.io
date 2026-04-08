@@ -1,8 +1,36 @@
+* { box-sizing: border-box; }
+
+:root {
+    --bg: #0b1220;
+    --surface: rgba(255, 255, 255, 0.86);
+    --card: #ffffff;
+    --text: #111827;
+    --muted: #6b7280;
+    --border: rgba(17, 24, 39, 0.10);
+    --shadow-sm: 0 6px 16px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 14px 34px rgba(0, 0, 0, 0.12);
+    --primary: #0d6efd;
+    --primary-700: #0b5ed7;
+    --radius: 16px;
+}
+
+html { scroll-behavior: smooth; }
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    color: var(--text);
+    background: radial-gradient(1200px 600px at 10% 0%, rgba(13, 110, 253, 0.14), transparent 60%),
+                radial-gradient(900px 500px at 90% 10%, rgba(34, 197, 94, 0.10), transparent 60%),
+                #f5f7fb;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+a:focus-visible, button:focus-visible, input:focus-visible {
+    outline: 3px solid rgba(13, 110, 253, 0.35);
+    outline-offset: 2px;
 }
 
 header {
@@ -11,31 +39,34 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background: var(--surface);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border);
     padding: 15px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-sm);
     z-index: 1000;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .logo img {
     height: 50px;
     width: auto;
     border-radius: 50%;
-    margin-right: 10px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 .logo-text {
     font-family: 'Pacifico', cursive;
     font-size: 24px;
     font-weight: normal;
-    color: #000;
+    color: #0f172a;
     text-shadow: none;
-    margin-left: 10px;
 }
 
 nav {
@@ -62,15 +93,22 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    color: #0f172a;
+    font-weight: 600;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    padding: 10px 12px;
+    border-radius: 999px;
 }
 
 nav ul li a:hover {
-    color: #007bff;
+    color: var(--primary-700);
+    background: rgba(13, 110, 253, 0.08);
 }
 
+nav ul li a.active {
+    background: rgba(13, 110, 253, 0.12);
+    color: var(--primary-700);
+}
 
 
 
@@ -81,18 +119,22 @@ nav ul li a:hover {
     background: none;
     border: none;
     cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 12px;
 }
 
 @media (max-width: 768px) {
     nav ul {
         display: none;
         flex-direction: column;
-        background: white;
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(14px);
         position: absolute;
         top: 60px;
         left: 0;
         width: 100%;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: var(--shadow-md);
+        border-bottom: 1px solid var(--border);
         max-height: 0;
         padding: 10px;
     }
@@ -111,8 +153,10 @@ nav ul li a:hover {
 
 main {
     min-height: 630px; /* Ajusta según tus necesidades */
-    padding: 20px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 56px 20px 32px;
+    background: transparent;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -123,6 +167,7 @@ h2 {
     color: #2c3e50;
     position: relative;
     padding-bottom: 15px;
+    letter-spacing: -0.02em;
 }
 
 h2::after {
@@ -154,48 +199,28 @@ h2::after {
 }
 
 #busqueda-producto {
-    padding: 10px 20px;
-    width: 320px;
-    border-radius: 20px;
-    border: 2px solid #007bff;
+    padding: 12px 16px;
+    width: min(520px, 92vw);
+    border-radius: 999px;
+    border: 1px solid rgba(13, 110, 253, 0.25);
     font-size: 16px;
     outline: none;
-    transition: border-color 0.3s;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    background: rgba(255,255,255,0.9);
 }
 .icono-lupa-busqueda {
-    color: #bfc5cb;
-    font-size: 23px;
+    color: rgba(17, 24, 39, 0.45);
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 3px;
 }
 #busqueda-producto:focus {
-    border-color: #0056b3;
-    background: #f4faff;
-}
-
-.icono-lupa {
-    position: absolute;
-    right: 30px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #b5bfcf;
-    font-size: 20px;
-    pointer-events: none;
-    transition: color 0.3s;
-    background: transparent;
-    padding: 0 1px;
-}
-.busqueda-producto-container:focus-within .icono-lupa {
-    color: #007bff;
-    background: transparent;
-}
-
-#busqueda-producto:focus {
-    border-color: #0056b3;
-    background: #f4faff;
+    border-color: rgba(13, 110, 253, 0.55);
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.15), 0 10px 22px rgba(0,0,0,0.10);
 }
 
 /* Estilos para categorías de productos */
@@ -208,9 +233,9 @@ h2::after {
 }
 
 .categoria-btn {
-    background-color: #ffffff;
+    background-color: rgba(255,255,255,0.92);
     color: #333;
-    border: 2px solid #007bff;
+    border: 1px solid rgba(13, 110, 253, 0.22);
     padding: 12px 20px;
     cursor: pointer;
     border-radius: 25px;
@@ -220,21 +245,22 @@ h2::after {
     display: flex;
     align-items: center;
     gap: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(10px);
 }
 
 .categoria-btn:hover {
-    background-color: #007bff;
+    background-color: var(--primary);
     color: white;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .categoria-btn.activo {
-    background-color: #007bff;
+    background-color: var(--primary);
     color: white;
-    border-color: #007bff;
-    transform: scale(1.05);
+    border-color: rgba(255,255,255,0.35);
+    transform: translateY(-1px) scale(1.02);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -271,7 +297,7 @@ h2::after {
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+    will-change: transform;
 }
 
 .producto:hover {
@@ -448,6 +474,7 @@ h2::after {
     height: 600px;
     overflow: hidden;
     margin: 0 auto;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
 }
 
 .carousel {
@@ -680,6 +707,11 @@ h2::after {
     color: #1f2937;
     position: relative;
     overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    border-radius: 24px;
+    border: 1px solid rgba(17, 24, 39, 0.08);
+    box-shadow: 0 18px 50px rgba(0,0,0,0.10);
 }
 
 .contacto::before { content: none; }
@@ -901,17 +933,19 @@ h2::after {
     border-radius: 50%; /* Bordes redondeados para un botón circular */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para un efecto elegante */
     text-decoration: none; /* Sin subrayado */
-    transition: background-color 0.3s ease; /* Transición suave */
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease; /* Transición suave */
     z-index: 9999; /* Asegura que el botón esté por encima de otros elementos */
 }
 
 .whatsapp-button:hover {
     background-color: #128C7E; /* Color de fondo al pasar el mouse */
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.22);
 }
 
 .whatsapp-button img {
-    width: 30px; /* Ajusta el tamaño del icono */
-    height: 30px; /* Ajusta el tamaño del icono */
+    width: 40px;
+    height: 40px;
 } 
 
 /* Íconos mejorados */

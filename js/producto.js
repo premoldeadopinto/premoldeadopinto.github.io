@@ -191,7 +191,7 @@ const productos = {
     },
     producto38: {
         nombre: "Macetas Plásticas",
-        imagenes: ["image/WhatsApp Image 2024-12-08 at 13.16.16(1).webp","image/WhatsApp Image 2024-12-08 at 13.16.16.webp","image/WhatsApp Image 2024-12-08 at 13.16.15(2).webp"]
+        imagenes: ["image/WhatsApp Image 2024-12-08 at 13.16.16.webp","image/WhatsApp Image 2024-12-08 at 13.16.15(2).webp"]
     },
     producto39: {
         nombre: "Buho",
@@ -289,6 +289,11 @@ const productos = {
     producto59: {
         nombre: "Comedero de animales",
         imagenes: ["image/comedero ani.webp","image/coemderoani.webp"]
+    } 
+    ,
+    producto60: {
+        nombre: "Bebedero de pajaro",
+        imagenes: ["image/bebedero de pajaro (1).webp","image/bebedero de pajaro (2).webp"]
     }
     // Más productos
 };
