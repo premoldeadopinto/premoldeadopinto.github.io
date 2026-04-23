@@ -112,8 +112,8 @@ const productos = {
     },
     producto24: {
         nombre: "Estatua de Anubis",
-        descripcion: "Imponente y detallada, esta estatua de Anubis de 26 cm de alto captura la majestuosidad del dios egipcio de los muertos y guardián del más allá. Elaborada con precisión, muestra a Anubis con su icónica cabeza de chacal y su postura vigilante, transmitiendo poder y misterio. Ideal para decorar espacios con un toque místico y cultural, esta pieza no solo es un símbolo de protección, sino también un recordatorio de la rica historia del antiguo Egipto. Perfecta para coleccionistas o amantes de la mitología egipcia.",
-        imagenes: ["image/472392632_3972587112985625_57081.webp", "image/472536304_572790652290402_679483.webp", "image/472536304_1090685259507420_59467.webp"]
+        descripcion: "Imponente y detallada, esta estatua de Anubis captura la majestuosidad del dios egipcio de los muertos y guardián del más allá. Elaborada con precisión, muestra a Anubis con su icónica cabeza de chacal y su postura vigilante, transmitiendo poder y misterio. Ideal para decorar espacios con un toque místico y cultural, esta pieza no solo es un símbolo de protección, sino también un recordatorio de la rica historia del antiguo Egipto. Perfecta para coleccionistas o amantes de la mitología egipcia.",
+        imagenes: ["image/anubis (1).webp", "image/anubis (2).webp", "image/anubis (3).webp"]
     }
     ,
     producto25: {
