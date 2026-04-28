@@ -295,6 +295,11 @@ const productos = {
         nombre: "Bebedero de pajaro",
         imagenes: ["image/bebedero de pajaro (1).webp","image/bebedero de pajaro (2).webp"]
     }
+    ,
+    producto61: {
+        nombre: "Gruta de la virgen de lujan",
+        imagenes: ["image/virgen de lujan.webp"]
+    }
     // Más productos
 };
 
