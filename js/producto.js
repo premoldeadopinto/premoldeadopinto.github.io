@@ -38,11 +38,6 @@ const productos = {
         descripcion:"Medida: 60 x 60 cm, 50 x 50 cm, 67 x 67 cm y otras medidas.  ",
         imagenes: ["image/IMG_20180517_093134475_HDR.webp"]
     }, 
-    producto8: {
-        nombre: "Tapas de cámara",
-        descripcion:"Medida: 60 x 60 cm, 50 x 50 cm, 67 x 67 cm y otras medidas.  ",
-        imagenes: ["image/IMG_20180517_093134475_HDR.webp"]
-    }, 
     producto9: {
         nombre: "Macetas tipo huevo",
         imagenes: ["image/macetaHuevo.webp"]
@@ -97,7 +92,7 @@ const productos = {
     },
     producto21: {
         nombre: "Tapa camara semilla de Melón",
-        descripcion:"Medida: 60x60 Cm. ",
+        descripcion:"Medidas: 60x60 Cm, 70x70cm y 75x75cm. ",
         imagenes: ["image/502721550_1074007611267983_26264.webp"]
     },
     producto22: {
