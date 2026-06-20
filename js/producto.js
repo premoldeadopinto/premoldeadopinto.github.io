@@ -174,7 +174,7 @@ const productos = {
     producto35: {
         nombre: "Cartel Domicilio de Casa con Número. Personalizable",
         descripcion: "Haz que tu hogar se distinga con estilo y practicidad. Este cartel de domicilio personalizable permite agregar el número de tu casa de manera clara y elegante.",
-        imagenes: ["image/muestra.webp", "image/muestra3.webp", "image/470472730_1119989306249937_12997.webp"]
+        imagenes: ["image/muestra.webp", "image/muestra3.webp"]
     },
     producto36: {
         nombre: "Sirenita",
