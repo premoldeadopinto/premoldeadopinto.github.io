@@ -295,6 +295,12 @@ const productos = {
         nombre: "Gruta de la virgen de lujan",
         imagenes: ["image/virgen de lujan.webp"]
     }
+    ,
+    producto62: {
+        nombre: "Maceta Jardinera",
+        descripcion: "1m de largo x 50cm alto x 40cm de ancho.",
+        imagenes: ["image/WhatsApp-Image-2026-08-20-at-4.07.48-PM.webp","image/WhatsApp-Image-2026-08-20-at-4.07.52-PM.webp","image/WhatsApp-Image-2026-08-20-at-4.07.57-PM.webp"]
+    }
     // Más productos
 };
 
