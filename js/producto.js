@@ -191,7 +191,7 @@ const productos = {
     producto39: {
         nombre: "Buho",
         descripcion: "Añade un toque de encanto y misterio a tu hogar u oficina con este hermoso búho decorativo de plástico. Diseñado con detalles realistas y un acabado de alta calidad, este búho es perfecto para estanterías, escritorios, jardines o cualquier rincón que necesite un toque especial.",
-        imagenes: ["image/475533589_2733960570110090_29125.webp"]
+        imagenes: ["image/buho1-_2_.webp", "image/buho1-_3_.webp", "image/buho1-_1_.webp"]
     },
 
     producto40: {
@@ -263,7 +263,7 @@ const productos = {
     },
     producto55: {
         nombre: "Soporte de bolígrafos",
-        imagenes: ["image/c985cf4fc32a8f7e.webp","image/bd0569f6f1a758f5.webp","image/soporte.webp"]
+        imagenes: ["image/bd0569f6f1a758f5.webp","image/soporte.webp"]
     }
     ,
     producto56: {
@@ -300,6 +300,11 @@ const productos = {
         nombre: "Maceta Jardinera",
         descripcion: "1m de largo x 50cm alto x 40cm de ancho.",
         imagenes: ["image/WhatsApp-Image-2026-08-20-at-4.07.48-PM.webp","image/WhatsApp-Image-2026-08-20-at-4.07.52-PM.webp","image/WhatsApp-Image-2026-08-20-at-4.07.57-PM.webp"]
+    }
+    ,
+    producto63: {
+        nombre: "Virgen de lourdes y santa bernardita",
+        imagenes: ["image/virgen-de-lourdes-_2_.webp","image/virgen-de-lourdes-_1_.webp","image/virgen-de-lourdes-_3_.webp"]
     }
     // Más productos
 };
