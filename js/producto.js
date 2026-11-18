@@ -263,7 +263,7 @@ const productos = {
     },
     producto55: {
         nombre: "Soporte de bolígrafos",
-        imagenes: ["image/bd0569f6f1a758f5.webp","image/soporte.webp"]
+        imagenes: ["image/soporte.webp","image/soporte boligrafo.webp"]
     }
     ,
     producto56: {
